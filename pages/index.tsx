@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -25,10 +26,10 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="/chatgpt" className={styles.card}>
+          <Link href="/chatgpt" className={styles.card}>
             <h2>聊天室 &rarr;</h2>
             <p>点击开始和AI聊天.</p>
-          </a>
+          </Link>
 
           <a href="https://github.com/moyuanhua/chatgpt-nextjs" className={styles.card}>
             <h2>Git 地址 &rarr;</h2>
