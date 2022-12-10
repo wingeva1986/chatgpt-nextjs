@@ -12,6 +12,8 @@
 
 [ ]接入github登录
 
+[ ]接入 redis
+
 ## Getting Started
 
 1. fork该项目到你的git
