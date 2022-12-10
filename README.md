@@ -1,10 +1,10 @@
-这是一个Nextjs项目
+这是一个Nextjs实现的与ChatGpt聊天的项目
 1. 实现了代理ChatGpt的账号聊天
 2. 实现了聊天页面对话页面
 3. 部署在[vercel.com](https://vercel.com/dashboard)海外的sass服务，天然有科学上网的能力。
 
 
-TODO 
+## TODO
 
 [ ]实现聊天连续对话
 
