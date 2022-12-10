@@ -16,9 +16,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">ChatGpt Room</a>
+          Quick <a href="https://nextjs.org">Chatgpt </a>
         </h1>
 
+        <p className={styles.description}>
+          分享最新的Chatgpt技术, 并提供体验的方式与快捷入口
+        </p>
 
 
         <div className={styles.grid}>
@@ -29,7 +32,7 @@ export default function Home() {
 
           <a href="https://github.com/moyuanhua/chatgpt-nextjs" className={styles.card}>
             <h2>Git 地址 &rarr;</h2>
-            <p>聊天原码</p>
+            <p>一个Nextjs实现的与ChatGpt聊天的项目</p>
           </a>
 
         </div>
